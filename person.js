@@ -1,7 +1,3 @@
-//add a new property email to the person object
-//update the age property of the person 
-//delete the last name property from person 
-//acces and print the value of first firstname using dot notation and bracket notation
 
 const person = {
     firstname : "Tobiloba",
@@ -17,4 +13,5 @@ delete person.lastname
 
 
 
-console.log(person)
+console.log(Object.values(firstname))
+
